@@ -1,0 +1,27 @@
+.textarea-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.textarea-label {
+  color: var(--color-text-primary);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+
+.textarea-field {
+  width: 100%;
+  padding: var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+  font-family: var(--font-family);
+  resize: vertical;
+}
+
+.textarea-field:focus {
+  outline: 2px solid var(--color-info);
+  outline-offset: 1px;
+}

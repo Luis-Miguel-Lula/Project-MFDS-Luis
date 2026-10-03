@@ -9,6 +9,7 @@ import Ideas from "./pages/Ideas/Ideas";
 import AI from "./pages/AI/AI";
 import Profile from "./pages/Profile/Profile";
 import Settings from "./pages/Settings/Settings";
+import DesignSystem from "./pages/DesignSystem/DesignSystem";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         <Route path="/ia" element={<AI />} />
         <Route path="/perfil" element={<Profile />} />
         <Route path="/configuracoes" element={<Settings />} />
+
+        <Route path="/design-system" element={<DesignSystem />} />
       </Routes>
     </BrowserRouter>
   );
