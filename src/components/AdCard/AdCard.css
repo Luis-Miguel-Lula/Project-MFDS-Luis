@@ -1,0 +1,52 @@
+.ad-card {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #d8dce3;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #20242c;
+}
+
+.ad-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.ad-card__label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #525866;
+}
+
+.ad-card__dismiss {
+  padding: 6px 10px;
+  border: 1px solid #d8dce3;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.ad-card__dismiss:hover {
+  background: #f3f4f6;
+}
+
+.ad-card__dismiss:focus-visible {
+  outline: 2px solid #315ee7;
+  outline-offset: 3px;
+}
+
+.ad-card__title {
+  margin: 12px 0 6px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.ad-card__description {
+  margin: 0;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
