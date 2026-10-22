@@ -10,7 +10,7 @@ import AI from "./pages/AI/AI";
 import Profile from "./pages/Profile/Profile";
 import Settings from "./pages/Settings/Settings";
 import DesignSystem from "./pages/DesignSystem/DesignSystem";
-
+import AdsDemoPage from "./pages/AdsDemo/AdsDemoPage";
 function App() {
   return (
     <BrowserRouter>
@@ -24,7 +24,7 @@ function App() {
         <Route path="/ia" element={<AI />} />
         <Route path="/perfil" element={<Profile />} />
         <Route path="/configuracoes" element={<Settings />} />
-
+        <Route path="/ads-demo" element={<AdsDemoPage />} />
         <Route path="/design-system" element={<DesignSystem />} />
       </Routes>
     </BrowserRouter>

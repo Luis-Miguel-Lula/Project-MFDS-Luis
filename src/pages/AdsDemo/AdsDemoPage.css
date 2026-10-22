@@ -1,0 +1,76 @@
+.ads-demo {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px;
+  color: #111827;
+}
+
+.ads-demo__header {
+  margin-bottom: 28px;
+}
+
+.ads-demo__eyebrow {
+  display: block;
+  margin-bottom: 8px;
+  color: #525866;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ads-demo__header h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+  line-height: 1.25;
+}
+
+.ads-demo__header p {
+  margin: 0;
+  color: #525866;
+  line-height: 1.5;
+}
+
+.ads-demo__content {
+  width: 100%;
+}
+
+.ads-demo__empty {
+  padding: 24px;
+  border: 1px solid #e0e3e8;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.ads-demo__empty h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.ads-demo__empty p {
+  color: #525866;
+}
+
+.ads-demo__empty button {
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 8px;
+  background: #111111;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ads-demo__empty button:focus-visible {
+  outline: 2px solid #315ee7;
+  outline-offset: 3px;
+}
+
+@media (max-width: 600px) {
+  .ads-demo {
+    padding: 20px 16px;
+  }
+  .ads-demo__header h1 {
+    font-size: 26px;
+  }
+}
